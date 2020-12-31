@@ -61,7 +61,7 @@ class cURL {
 		return $return;
 	}
 	function error($error) {
-		echo "<center><b>cURL Error</b><br>$error</center>";
+		echo "<center><b>cURL Error: </b>$error</center>";
 		die;
 	}
 }
