@@ -61,7 +61,7 @@ class cURL {
 		return $return;
 	}
 	function error($error) {
-		echo "<center><div style='width:500px;border: 3px solid #FFEEFF; padding: 3px; background-color: #FFDDFF;font-family: verdana; font-size: 10px'><b>cURL Error</b><br>$error</div></center>";
+		echo "<center><b>cURL Error</b><br>$error</center>";
 		die;
 	}
 }
