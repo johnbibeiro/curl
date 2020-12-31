@@ -1,6 +1,6 @@
 # curl
 CURL with PHP
-
+<pre>
 class cURL {
 	var $headers;
 	var $user_agent;
@@ -69,3 +69,4 @@ class cURL {
 $cc = new cURL();
 $cc->get('http://www.example.com');
 $cc->post('http://www.example.com','foo=bar');
+</pre>
